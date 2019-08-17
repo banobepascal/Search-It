@@ -1,3 +1,6 @@
+body {
+  background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
 @media screen and (max-width: 660px) {
     #resultContainer{
       top: 110px !important;
@@ -15,7 +18,8 @@
     top: 0px;
     left: 0px;
     display: flex;
-    background: black;
+    background:  #34495e
+;
     flex-flow: wrap;
   }
   
@@ -55,7 +59,7 @@
   }
   #result div{
     margin: 10px 0px;
-    background-color: rgba(211, 211, 211, 0.37)
+    background-color:  #e5e7e9;
   }
   .red {
     color: red;
