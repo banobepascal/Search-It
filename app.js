@@ -1,4 +1,4 @@
-const search = document.querySelector('#search');
+const search = document.querySelector('#searchit');
 const matchList = document.querySelector('#match-list');
 
 //search states.json and filter it
