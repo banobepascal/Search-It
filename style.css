@@ -1,0 +1,68 @@
+@media screen and (max-width: 660px) {
+    #resultContainer{
+      top: 110px !important;
+    }
+    #inputBox {
+      width: 90vw;
+      margin: 0px !important;
+    }
+  }
+  header {
+    padding: 10px;
+    color: white;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    background: black;
+    flex-flow: wrap;
+  }
+  
+  #searchit {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3em;
+    font-weight: bolder;
+  }
+  #inputBox {
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 6px;
+    border: solid;
+    padding-left: 6px;
+    font-size: 2.5em;
+    margin: 0px 20px;
+  }
+  
+  #it {
+    color: rgb(255, 0, 0);
+  }
+  #inputBox::placeholder {
+    color: lightgray;
+  }
+  #resultContainer{
+    width: 80vw;
+    position: relative;
+    top: 70px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  #result {
+    width: 55vw;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.8em;
+    z-index: -1;
+  }
+  #result div{
+    margin: 10px 0px;
+    background-color: rgba(211, 211, 211, 0.37)
+  }
+  .red {
+    color: red;
+  }
+  .green {
+    color: green;
+  }
+  .match {
+    background: rgba(187, 245, 165);
+  }
