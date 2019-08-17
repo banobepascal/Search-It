@@ -1,5 +1,5 @@
-const search = document.querySelector('#searchit');
-const matchList = document.querySelector('#match-list');
+const search = document.querySelector('#inputBox');
+const matchList = document.querySelector('#result');
 
 //search states.json and filter it
 const searchStates = async searchText => {
@@ -23,7 +23,10 @@ const searchStates = async searchText => {
 const outputHtml = matches => {
     if(matches.length > 0){
       const html = matches.map(match => `
-       
+       <div>
+       <h3> city: ${match.city} </h3>
+       <h4>state: ${match.state}</h4>
+       <h5>growth_from_2000_to_2013: ${match.growth_from_2000_to_2013}</h5></div>
       `).join('');
       
       matchList.innerHTML = html;
