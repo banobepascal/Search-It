@@ -24,7 +24,9 @@ const outputHtml = matches => {
     if(matches.length > 0){
       const html = matches.map(match => `
        
-      `)  
+      `).join('');
+      
+      matchList.innerHTML = html;
     }
 }
 
