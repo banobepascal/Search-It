@@ -27,7 +27,8 @@ const outputHtml = matches => {
        <div>
        <h3> city: ${match.city} </h3>
        <h4>state: ${match.state}</h4>
-       <h5>growth_from_2000_to_2013: ${match.growth_from_2000_to_2013}</h5></div>
+       <h5>population: ${match.population}</h5>
+       <h6>growth_from_2000_to_2013: ${match.growth_from_2000_to_2013}</h6></div>
       `).join('');
       
       matchList.innerHTML = html;
